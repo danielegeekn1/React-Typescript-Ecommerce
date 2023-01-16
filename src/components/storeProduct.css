@@ -1,0 +1,47 @@
+.card {
+  min-height: 25rem;
+  width: 12rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+img {
+  border-radius: 2rem;
+  height: 20rem;
+  width: 20rem;
+}
+h5 {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: black;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h6 {
+  position: absolute;
+  z-index: 9;
+  color: black;
+  font-weight: 800;
+  font-size: 2rem;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
