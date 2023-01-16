@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Macbook Air M1 ",
+    "price": 1400,
+    "img": "../images/macbook-air-m1.webp"
+  },
+  {
+    "id": 2,
+    "title": "Vivo Watch 5",
+    "price": 1800,
+    "img": "../images/vivowatch-5.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Macbook Pro 2022 ",
+    "price": 2400,
+    "img": "../images/macbook-pro-2022.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Microsof surface 8 ",
+    "price": 1800,
+    "img": "../images/microsoft-surface-8.webp"
+  },
+  {
+    "id": 5,
+    "title": "Trevi Smartwatch ",
+    "price": 1800,
+    "img": "../images/trevi-smartwatch.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Lenovo Thinkpad x1 ",
+    "price": 2800,
+    "img": "../images/lenovo-thinkpad-x1-gen7.webp"
+  },
+  {
+    "id": 7,
+    "title": "Apple Watch Ultra ",
+    "price": 1100,
+    "img": "../images/apple-watch-ultra.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Oppo Find x5 ",
+    "price": 1200,
+    "img": "../images/oppo-find-x5.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Asus Zenbook ",
+    "price": 1800,
+    "img": "../images/asus-zenbook.png"
+  },
+  {
+    "id": 10,
+    "title": "Dell Xps 15 ",
+    "price": 2400,
+    "img": "../images/dell-xps-15.webp"
+  }
+]
