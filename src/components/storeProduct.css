@@ -42,9 +42,17 @@ h6 {
 }
 .button-container {
   display: flex;
+  width: 270px;
+  justify-content: space-between;
   gap: 1rem;
 }
 .btn {
-  height: 80px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
+}
+@media only screen and (max-width: 750px) and (min-width: 400px) {
+  .button-container {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
