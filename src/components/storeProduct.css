@@ -5,9 +5,6 @@
   overflow: hidden;
   position: absolute;
 }
-.main_card {
-  position: relative;
-}
 
 img {
   border-radius: 2rem;
@@ -18,7 +15,7 @@ img {
 h5 {
   position: absolute;
   z-index: 10;
-  left: 50%;
+  left: 100px;
   transform: translate(-50%, 0%);
   color: black;
   font-weight: 700;
@@ -45,7 +42,9 @@ h6 {
 }
 .button-container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   gap: 1rem;
+}
+.btn {
+  height: 80px;
+  width: 150px;
 }
