@@ -1,4 +1,4 @@
-import { Button } from "react-bootstrap";
+//import { Button } from "react-bootstrap";
 import { useECommerceContext } from "../context/ShoppingCartContext";
 import "./storeProduct.css";
 type StoreProductProps = {
@@ -30,13 +30,18 @@ const StoreProducts = ({ id, img, title, price }: StoreProductProps) => {
           </div>
         </div>
         <div className="button-container">
-          <Button onClick={() => addProduct(id)} className="btn">
+          {/* <Button onClick={() => addProduct(id)} className="btn">
             Add product in the cart
-          </Button>
-
-          <Button onClick={() => removeProduct(id)} className="btn">
+          </Button> */}
+          <button className="btn-c" onClick={() => addProduct(id)}>
+            add
+          </button>
+          <button className="btn-c" onClick={() => removeProduct(id)}>
+            remove
+          </button>
+          {/* <Button onClick={() => removeProduct(id)} className="btn">
             Remove product from the cart
-          </Button>
+          </Button> */}
         </div>
       </div>
     </>
