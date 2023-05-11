@@ -16,7 +16,7 @@ const CartModal = ({ id, quantity }: CartModalProps) => {
     <Stack direction="horizontal" gap={2} className="d-flex align-items-center">
       <img
         src={item.img}
-        style={{ width: "125px", height: "75px", objectFit: "cover" }}
+        style={{ width: "80px", height: "75px", objectFit: "cover" }}
       />
       <div className="me-auto">
         <div>
