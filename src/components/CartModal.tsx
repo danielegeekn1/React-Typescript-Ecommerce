@@ -6,7 +6,8 @@ type CartModalProps = {
   quantity: number;
 };
 const CartModal = ({ id, quantity }: CartModalProps) => {
-  const { removeProduct } = useECommerceContext();
+  const { removeProduct, removeAllProducts, addProduct } =
+    useECommerceContext();
 
   const item = products.find((i) => i.id === id);
 
@@ -36,8 +37,17 @@ const CartModal = ({ id, quantity }: CartModalProps) => {
         size="sm"
         onClick={() => removeProduct(item.id)}
       >
-        &times;
+        -
       </Button>
+
+      <Button
+        variant="outline-danger"
+        size="sm"
+        onClick={() => addProduct(item.id)}
+      >
+        +
+      </Button>
+      <Button onClick={() => removeAllProducts()}>empty cart</Button>
     </Stack>
   );
 };

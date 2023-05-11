@@ -1,16 +1,19 @@
 .card {
   min-height: 25rem;
-  width: 12rem;
+  width: 18rem;
   border-radius: 2rem;
   overflow: hidden;
-  display: flex;
-  justify-content: flex-start;
+  position: absolute;
+}
+.main_card {
   position: relative;
 }
+
 img {
   border-radius: 2rem;
   height: 20rem;
   width: 20rem;
+  position: absolute;
 }
 h5 {
   position: absolute;
@@ -44,4 +47,5 @@ h6 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 1rem;
 }

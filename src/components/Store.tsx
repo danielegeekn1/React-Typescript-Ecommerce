@@ -1,12 +1,12 @@
 import StoreProducts from "./StoreProducts";
+
 const Store = () => {
   return (
     <>
       <StoreProducts />
-      {/*   {products.map((item) => (
+      {/* {products.map((item) => (
         <StoreProducts {...item} />
-      ))}
-        */}
+      ))} */}
     </>
   );
 };
